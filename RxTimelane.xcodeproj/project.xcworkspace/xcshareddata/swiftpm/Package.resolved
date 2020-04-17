@@ -14,9 +14,9 @@
         "package": "RxTimelane",
         "repositoryURL": "https://github.com/iamszabo/RxTimelane",
         "state": {
-          "branch": "master",
-          "revision": "c22e3dfed6e4edd26cea33807abd358b5a7b4820",
-          "version": null
+          "branch": null,
+          "revision": "c52aa894b9c545e1a5e64f153e24c82179ee3d87",
+          "version": "3.0.0"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/iamszabo/TimelaneCore",
         "state": {
           "branch": null,
-          "revision": "29d9c8c56575819c025b87c836fb1ce320e405df",
-          "version": "1.0.8"
+          "revision": "0ee670eb66c1bcde996c681dda368931d2b541f6",
+          "version": "3.0.0"
         }
       }
     ]

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		351A955D2449E8D100576826 /* RxTimelane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351A955C2449E8D100576826 /* RxTimelane.swift */; };
-		35D4CEF4244A060A00B381B6 /* RxTimelane in Frameworks */ = {isa = PBXBuildFile; productRef = 35D4CEF3244A060A00B381B6 /* RxTimelane */; };
 		35D4CEFB244A078900B381B6 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 35D4CEFA244A078900B381B6 /* RxSwift */; };
 		35D4CEFD244A078900B381B6 /* RxTimelane in Frameworks */ = {isa = PBXBuildFile; productRef = 35D4CEFC244A078900B381B6 /* RxTimelane */; };
 		BC38571F242A36E2006BC2D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38571E242A36E2006BC2D8 /* AppDelegate.swift */; };
@@ -73,7 +72,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC94D933242972B70068D353 /* TimelaneCore.framework in Frameworks */,
-				35D4CEF4244A060A00B381B6 /* RxTimelane in Frameworks */,
 				BC94D92F242972B40068D353 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +183,6 @@
 			);
 			name = RxTimelane;
 			packageProductDependencies = (
-				35D4CEF3244A060A00B381B6 /* RxTimelane */,
 			);
 			productName = RxTimelane;
 			productReference = BCEA4D692429714A00B8E52C /* RxTimelane.framework */;
@@ -555,8 +552,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/iamszabo/RxTimelane";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
 			};
 		};
 		BC15C5FA242AA86F00D8F7B5 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
@@ -570,11 +567,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		35D4CEF3244A060A00B381B6 /* RxTimelane */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 35D4CEF2244A060A00B381B6 /* XCRemoteSwiftPackageReference "RxTimelane" */;
-			productName = RxTimelane;
-		};
 		35D4CEFA244A078900B381B6 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BC15C5FA242AA86F00D8F7B5 /* XCRemoteSwiftPackageReference "RxSwift" */;
