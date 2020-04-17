@@ -7,7 +7,7 @@ let package = Package(
     name: "RxTimelane",
     platforms: [
       .macOS(.v10_14),
-      .iOS(.v12),
+      .iOS(.v11),
       .tvOS(.v12),
       .watchOS(.v5)
     ],

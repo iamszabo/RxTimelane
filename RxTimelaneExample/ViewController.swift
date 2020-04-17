@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TimelaneCore
 import RxSwift
 import RxTimelane
 
