@@ -18,7 +18,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.1"),
-        .package(url: "https://github.com/iamszabo/TimelaneCore", from: "1.0.1")
+        .package(url: "https://github.com/iamszabo/TimelaneCore", from: "3.0.0")
     ],
     targets: [
         .target(
